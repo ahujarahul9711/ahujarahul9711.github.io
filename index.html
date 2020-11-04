@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/design-system/2.9.4/styles/salesforce-lightning-design-system.min.css"/>
+	<link rel="stylesheet" href="override.css"/>
+	<title>Assignment 2</title>
+</head>
+<body class="background_color">
+	<!-- Navbar start-->
+	<div class="slds-context-bar navbar_black navbar_size">
+		<span  >
+			<img src="logo.jpg" alt="logo" class="image_circle">
+		</span>
+		<nav class="slds-context-bar__secondary content_white" role="navigation">
+			<table class="table_margin">
+				<tr>
+					<td><span class="slds-context-bar__label-action slds-context-bar__app-name">
+						<span class="slds-truncate font_big" title="App Name">Beverage Control</span><br/>
+					</span>
+				</td>
+			</tr>
+			<tr><td>Public protection cabinet</td></tr>
+		</table>
+		<ul class="slds-grid">
+			<li class="slds-context-bar__item slds-is-active">
+				<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home">
+					<span class="slds-assistive-text">Current Page:</span>
+					<span class="slds-truncate font_navbar" title="Home">Dashboard</span>
+				</a>
+			</li>
+			<li class="slds-context-bar__item">
+				<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+					<span class="slds-truncate font_navbar" title="Menu Item">Profile</span>
+				</a>
+			</li>
+			<li class="slds-context-bar__item">
+				<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+					<span class="font_navbar" title="Menu Item">Lorna Sharper</span>
+				</a>
+				<div class="slds-context-bar__icon-action slds-p-left_none">
+					<button class="slds-button slds-button_icon slds-button_icon slds-context-bar__button" aria-haspopup="true" title="Open menu item submenu">
+						<img src="arrow.svg" alt="Arrow" class="slds-button__icon dropdown_white">
+					</button>
+				</div>
+			</li>					
+		</ul>
+	</nav>
+</div>
+<!-- Navbar end-->
+<!-- Warning start-->
+<article class="slds-card custom-warning">
+	<div class="slds-card__header slds-grid">
+		<header class="slds-media slds-media_center slds-has-flexi-truncate">
+			<div class="slds-media__figure">
+				<img class="slds-icon slds-icon_small img_padding" aria-hidden="true" src="warn 2.svg" />
+			</div>
+			<div class="slds-media__body">
+				<h2 class="slds-card__header-title">
+					<span>Something went wrong with your application. Kindly check again</span>
+				</h2>
+			</div>
+			<div class="slds-no-flex">
+				<button class="slds-button slds-button_neutral button_custom_margin">View Now</button>
+			</div>
+		</header>
+	</div>
+</article>
+<!-- Warning end-->
+<!-- Text and button start-->
+<div class="slds-text-heading_large text_style"><br/>Welcome to Alcoholic Beverage License portal.</div>
+<div class="slds-text-heading_small subheading">Some more text</div>
+<div class="background_color cmp_margin cmp_margin_right">
+<ul class="slds-tabs_default__nav" role="tablist">
+<li class="slds-tabs_default__item slds-is-active" title="Item One" role="presentation">
+<a class="slds-tabs_default__link" href="javascript:void(0);" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" id="tab-default-1__item">Application Status</a>
+</li>
+<li class="slds-tabs_default__item tab-text" title="Item Two" role="presentation">
+<a class="slds-tabs_default__link" href="javascript:void(0);" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-2" id="tab-default-2__item">My license(s)</a>
+</li>
+</ul>
+</div>
+<a class="slds-button slds-button_brand link_custom_margin" href="javascript:void(0);">New Request Application</a>
+<div class="slds-text-heading_medium mtx_text"><br/>Alcoholic Beverage Control</div>
+<!-- Text and button end-->
+<!-- Card type 1 start-->
+<article class="slds-card card-box_custom card-box_custom_red cmp_margin cmp_margin_right">
+	<div class="slds-card__header">
+		<header class="slds-media slds-media_center slds-has-flexi-truncate">
+			<div class="slds-media__body">
+				<h2 class="slds-card__header-title font_color_persian">
+					<span>Chetak Circle - 313001</span>
+				</h2>
+				<div class="slds-card__body">Anything can go into the card body</div>
+			</div>
+			<img class="slds-icon slds-icon_xx-small img_padding" aria-hidden="true" src="warn.svg" />
+			<div class="slds-no-flex">
+				Incomplete application
+				<button class="slds-button slds-button_neutral button_custom_margin button-color">Update</button>
+			</div>
+		</header>
+	</div>					
+</article>
+<article class="slds-card card-box_custom card-box_custom_orange cmp_margin cmp_margin_right">
+	<div class="slds-card__header">
+		<header class="slds-media slds-media_center slds-has-flexi-truncate">
+			<div class="slds-media__body">
+				<h2 class="slds-card__header-title font_color_persian">
+					<span>Chetak Circle - 313001</span>
+				</h2>
+				<div class="slds-card__body">Anything can go into the card body</div>
+			</div>
+			<div class="slds-no-flex">
+				<table>
+					<tr>
+						<td class="subheading">New License application</td>
+						<td rowspan=2><button class="slds-button slds-button_neutral button_custom_margin">Continue</button></td>
+					</tr>
+					<tr>
+						<td class="text-color">Incomplete application</td>
+					</tr>
+				</table>
+			</div>
+		</header>
+	</div>					
+</article>
+<article class="slds-card card-box_custom card-box_custom_orange cmp_margin cmp_margin_right">
+	<div class="slds-card__header">
+		<header class="slds-media slds-media_center slds-has-flexi-truncate">
+			<div class="slds-media__body">
+				<h2 class="slds-card__header-title font_color_persian">
+					<span>Chetak Circle - 313001</span>
+				</h2>
+				<div class="slds-card__body">Anything can go into the card body</div>
+			</div>
+			<div class="slds-no-flex">
+				<table>
+					<tr>
+						<td class="subheading">New License application</td>
+						<td rowspan=2><button class="slds-button slds-button_neutral button_custom_margin">Continue</button></td>
+					</tr>
+					<tr>
+						<td class="text-color">Incomplete application</td>
+					</tr>
+				</table>
+			</div>
+		</header>
+	</div>					
+</article>
+<!-- Card type 1 end-->
+<!-- Card type 2 start-->
+<div class="cmp_margin cmp_margin_right">
+	<article class="slds-card">
+		<div class="slds-card__header slds-grid ">
+			<header class="slds-media slds-media_center slds-has-flexi-truncate">
+				<div class="slds-media__body">
+					<h2 class="slds-card__header-title font_color_persian">
+						<span>Chetak Circle - 313001</span>
+					</h2>
+					<div class="slds-card__body">Anything can go into the card body</div>
+				</div>
+				<div class="slds-no-flex">
+					<b>Site Number : 12341234</b>
+					<button class="slds-button slds-button_neutral button_custom_margin">Withdraw</button>
+				</div>
+			</header>
+		</div>		
+		<div class="slds-card__body">
+			<table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout table_custom" 
+			role="grid">
+			<thead>
+				<tr class="slds-line-height_reset">
+					<th class="cell_width" scope="col">
+						<div class="slds-truncate" title="Name">Name</div>
+					</th>
+					<th class="" scope="col">
+						<div class="slds-truncate" title="Company">Company</div>
+					</th>
+					<th class="" scope="col">
+						<div class="slds-truncate" title="Title">Title</div>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="slds-hint-parent">
+					<th scope="row" class="cell_width">
+						<div class="slds-truncate" title="Amy Choi">
+							<a href="javascript:void(0);" tabindex="-1">Amy Choi</a>
+						</div>
+					</th>
+					<td role="gridcell">
+						<div class="slds-truncate" title="Company One">Company One</div>
+					</td>
+					<td role="gridcell">
+						<div class="slds-truncate" title="Director of Operations">Director of Operations</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</article>
+</div>
+<div class="slds-text-heading_medium mtx_text"><br/>MTX Group Inc.</div>
+<div class="cmp_margin cmp_margin_right">
+	<article class="slds-card">
+		<div class="slds-card__header slds-grid ">
+			<header class="slds-media slds-media_center slds-has-flexi-truncate">
+				<div class="slds-media__body">
+					<h2 class="slds-card__header-title font_color_persian">
+						<span>Chetak Circle - 313001</span>
+					</h2>
+					<div class="slds-card__body">Anything can go into the card body</div>
+				</div>
+				<div class="slds-no-flex">
+					<b>Site Number : 12341234</b>
+					<button class="slds-button slds-button_neutral button_custom_margin">Withdraw</button>
+				</div>
+			</header>
+		</div>		
+		<div class="slds-card__body">
+			<table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout table_custom" 
+			role="grid">
+			<thead>
+				<tr class="slds-line-height_reset">
+					<th class="cell_width" scope="col">
+						<div class="slds-truncate" title="Name">Name</div>
+					</th>
+					<th class="" scope="col">
+						<div class="slds-truncate" title="Company">Company</div>
+					</th>
+					<th class="" scope="col">
+						<div class="slds-truncate" title="Title">Title</div>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="slds-hint-parent">
+					<th scope="row" class="cell_width">
+						<div class="slds-truncate" title="Amy Choi">
+							<a href="javascript:void(0);" tabindex="-1">Amy Choi</a>
+						</div>
+					</th>
+					<td role="gridcell">
+						<div class="slds-truncate" title="Company One">Company One</div>
+					</td>
+					<td role="gridcell">
+						<div class="slds-truncate" title="Director of Operations">Director of Operations</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</article>
+</div>
+<!-- Card type 2 end-->
+<!-- Footer start-->
+<div class="slds-context-bar navbar_black footer_padding-left">
+		<nav class="slds-context-bar__secondary content_white" role="navigation">
+			<table class="table_margin">
+				<tr>
+			<td><span class="slds-context-bar__label-action slds-context-bar__app-name">
+				<span class="slds-truncate" title="App Name">&#169;Some public website</span><br/>
+			</span>
+		</td>
+		</tr>
+	</table>
+			<ul class="slds-grid">
+				<li class="slds-context-bar__item">
+					<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home">
+						<span class="slds-truncate" title="Home">Help</span>
+					</a>
+				</li>
+				<li class="slds-context-bar__item">
+					<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+						<span class="slds-truncate" title="Menu Item">FAQs</span>
+					</a>
+					</li>
+					<li class="slds-context-bar__item">
+					<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+						<span class="" title="Menu Item">Submit a case</span>
+					</a>
+					</li>
+					<li class="slds-context-bar__item">
+					<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+						<span class="" title="Menu Item">Terms of use aggrement</span>
+					</a>
+					</li>	
+					<li class="slds-context-bar__item">
+					<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
+						<span class="" title="Menu Item">Privacy policy</span>
+					</a>
+					</li>						
+				</ul>
+			</nav>
+		</div>
+<!-- Footer end-->
+</body>
+</html>

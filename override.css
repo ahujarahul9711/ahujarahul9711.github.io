@@ -1,0 +1,140 @@
+.card-box_custom{
+	border-radius:0rem;
+	padding: none;
+	
+}
+.text-color{
+	color: rgb(247, 152, 28);
+}
+.card-box_custom_red{
+	border-left: 0.5rem solid rgb(248, 83, 89);
+}
+.card-box_custom_orange{
+	border-left: 0.5rem solid rgb(247, 152, 28);
+}
+.background_light_red{
+	background: rgb(248, 83, 89);
+}
+.font_color_persian{
+	font-size: 20px;
+	color: rgb(13, 60, 200);
+font-family: Heebo-Regular;
+}
+.card_size{
+	height:auto;
+	width:12px;
+ 	border-radius:0rem;
+ 	padding: none;
+border: none;
+}
+.button-color{
+	background: rgb(71, 158, 235);
+	color: white;
+}
+.button_custom_margin{
+	margin-left: 1rem;
+	width: 12rem;
+}
+.link_custom_margin{
+	background: linear-gradient(-180deg, rgb(13, 60, 200) 0%, rgb(4, 41, 181) 100%);
+	margin-top: 1rem;
+	margin-left: 6rem;
+	width: 16rem;
+}
+.img_padding{
+	margin-right: 0.35rem;
+}
+.navbar_black{
+	background-color: rgb(48, 51, 61);
+	border-bottom: none;
+	padding-left: 2.5%;
+	padding-right: 6.5%;"
+}
+.content_white{
+	color: rgb(255, 255, 255);
+font-family: Heebo-Regular;
+padding: 1rem;
+font-size: 16px;
+
+}
+.image_circle { 
+  margin-left: 3rem;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.navbar_size{
+  width: 100%;
+  height: 65px;
+  padding-left: 2%;
+}
+.table_margin{
+	align-self: center;
+}
+.font_big{
+	 font-size:1.5rem;
+}
+.font_navbar{ 
+	font-size:1rem;
+	margin: 8px;
+}
+.dropdown_white{
+	background-color: rgb(255, 255, 255);
+}
+.custom-warning{
+	position: -webkit-sticky;
+	position: sticky;
+	background: rgb(247, 152, 28);
+	border-top:none;
+	margin-bottom: 0%;
+	padding-left: 5%;
+	padding-right: 6.5%;"
+}
+.table_custom{
+	border:1px solid;
+	margin: auto;
+	width: 95%;
+	box-sizing: border-box;
+}
+.cell_width{
+	width: 70%;
+}
+.cell_padding {
+  padding:0.50em;
+}
+.cmp_margin{
+	  margin: 1%;
+	  margin-left: 7%;
+}
+.cmp_margin_right{
+	margin-right: 7.5%;
+}
+.footer{
+	bottom: 0;
+	position:absolute;
+	width:100%;
+}
+.background_color{
+	background-color: #f5f5f5;
+}
+.text_style{
+	 margin-left: 7%;
+	 font-weight: bold;
+}
+.mtx_text{
+	 margin-left: 7%;
+	 margin-top: -1%;
+	 font-weight: bold;
+	 color: rgb(13, 60, 200);
+}
+.subheading{
+	margin-left: 7%;
+	color: rgb(127, 143, 164);
+}
+.tab-text{
+	color: rgb(127, 143, 164);	
+}
+.footer_padding-left{
+	padding-left: 5.5%;
+}
